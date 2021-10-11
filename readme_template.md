@@ -34,4 +34,4 @@ If applicable, include additional examples and expected output.
 Inform users whom to contact in case they need support.
 
 ## License:
-[MIT](./license)
+[MIT](./LICENSE)
