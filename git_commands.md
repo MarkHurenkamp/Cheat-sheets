@@ -50,6 +50,19 @@ Create or switch to different branch:
 > \$ git branch foo<br>
 > \$ git checkout foo<br>
 
+Commit and push to new (remote) branch:
+> \$ git commit -a -m "Another commit message"<br>
+> \$ git push origin foo<br>
+
+Merge:
+> \$ git checkout main<br>
+> \$ git merge foo<br>
+> \$ git push origin main<br>
+
+Delete branch (local + remote):
+> \$ git branch -d foo<br>
+> \$ git push origin :foo<br>
+
 Some tips on naming conventions on branches:
 [Stackoverflow](https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches)
 
