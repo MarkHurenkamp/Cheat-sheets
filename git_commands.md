@@ -41,7 +41,7 @@ Basic usage:
 > \$ git push -u origin main <br>
 
 Review historic commits:
-> \$ git log --pretty="%C(Yellow)%h %C(reset)%ad %C(Cyan)%an: %C(reset)%s" --date=iso860
+> \$ git log --pretty="%C(Yellow)%h %C(reset)%ad %C(Cyan)%an: %C(reset)%s" --date=iso8601
 
 Show all branches:
 > \$ git branch
@@ -62,6 +62,17 @@ Merge:
 Delete branch (local + remote):
 > \$ git branch -d foo<br>
 > \$ git push origin :foo<br>
+
+Save local work and revert to earlier commit:
+> \$ git stash
+> \$ git reset --hard <index>
+
+See stashed work and reapply:
+> \$ git stash list
+> \$ git stash pop 0
+
+Open GUI:
+> \$ gitk
 
 Some tips on naming conventions on branches:
 [Stackoverflow](https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches)
