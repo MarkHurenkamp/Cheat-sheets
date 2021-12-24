@@ -1,0 +1,10 @@
+2021-12-24 22:58:09 - Starting new program!
+2021-12-24 22:58:09 - Attempting to divide 10 by 3
+2021-12-24 22:58:09 - Attempting to divide 10 by 0
+2021-12-24 22:58:09 - Exception caught in function 'divide' with arguments {'num1': 10, 'num2': 0} at line 14' of file c:\Users\markh\OneDrive\Git notes\Python\Logging\example_logging_usage.py:
+	division by zero
+2021-12-24 22:58:09 - Uncaught exception:
+Traceback (most recent call last):
+  File "c:\Users\markh\OneDrive\Git notes\Python\Logging\example_logging_usage.py", line 30, in <module>
+    print(divide(10 / "x"))
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
