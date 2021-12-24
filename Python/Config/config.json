@@ -1,0 +1,14 @@
+{
+    "some_string": "A string",
+    "some_int": 10,
+    "some_float": 1.23,
+    "some_list": [
+        1,
+        2,
+        3
+    ],
+    "some_dict": {
+        "dict_key1": "Dict value 1",
+        "dict_key2": "Dict value 2"
+    }
+}
