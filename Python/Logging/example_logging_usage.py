@@ -1,3 +1,6 @@
+import os
+
+os.chdir("Python/Logging")
 # log_settings changes sys.excepthook to log_settings.log_exceptions, so
 # importing log_settings is sufficient to capture uncaught exceptions to the
 # log file, meanwhile they are also (still) printed to stdout
