@@ -1,2 +1,4 @@
 __pycache__/
 Logs/
+venv/
+Python/Testing/test.py
