@@ -23,6 +23,8 @@ $ sudo apt install nginx git python3X python3.X-env
 
 
 ## Folder structure:
+
+### Project:
 ```
 /home/USERNAME/
 └── sites
@@ -37,5 +39,23 @@ $ sudo apt install nginx git python3X python3.X-env
         ├── .env
         ├── db.sqlite3
         └── etc.
+```
 
+### Config files:
+```
+/etc/
+├── nginx/sites-available/
+|  ├── DOMAIN1
+|  └── DOMAIN2
+└── systemd/system/
+   ├── gunicorn-DOMAIN1.service
+   └── gunicorn-DOMAIN2.service
+```
+
+## Starting / stopping service:
+```
+$ sudo systemctl start nginx
+$ sudo systemctl daemon-reload
+$ sudo systemctl enable gunicorn-DOMAIN1.service
+$ sudo systemctl start gunicorn-DOMAIN1.service
 ```

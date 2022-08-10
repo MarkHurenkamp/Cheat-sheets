@@ -64,16 +64,16 @@ Delete branch (local + remote):
 > \$ git push origin :foo<br>
 
 Save local work and revert to earlier commit:
-> \$ git stash
-> \$ git reset --hard <index>
+> \$ git stash<br>
+> \$ git reset --hard \<index\>
 
 See stashed work and reapply:
-> \$ git stash list
+> \$ git stash list<br>
 > \$ git stash pop 0
 
 Open GUI:
 > \$ gitk
 
-Some tips on naming conventions on branches:
+Some tips on naming conventions on branches:<br>
 [Stackoverflow](https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches)
 
